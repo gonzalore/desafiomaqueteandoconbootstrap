@@ -1,0 +1,49 @@
+/*Reseteo aunque bootstrap ya lo trae*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 253, 253);
+}
+
+/*Variables*/
+:root{
+    --lav-light: #f2deff;
+    --lav: #b57edc;
+}
+
+/*Tipografía general*/
+body{
+    font-family: Verdana;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(to top, grey, whitesmoke);
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.bg-lav{
+    background-image: linear-gradient(to bottom, blue, whitesmoke);
+    padding: 2rem 0;
+}
